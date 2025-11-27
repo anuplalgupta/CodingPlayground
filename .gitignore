@@ -1,0 +1,57 @@
+# Build artifacts
+bin/
+build/
+target/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE-specific files
+*.iml
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*Untitled*.ipynb
+untitled
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test results
+test-results/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
